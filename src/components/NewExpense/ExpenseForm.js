@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import './ExpenseForm.css'
 
 const ExpenseForm = (props) => {
+    //comments are another way to edit state. Comes down to preference, however the commented converts to an object and can be finicky.
+
     const [enteredTitle, setEnteredTitle] = useState('');
     const [enteredAmount, setEnteredAmount] = useState('');
     const [enteredDate, setEnteredDate] = useState('');

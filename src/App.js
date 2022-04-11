@@ -3,7 +3,7 @@ import Expenses from './components/Expenses/Expenses';
 import NewExpense from './components/NewExpense/NewExpense';
 
 const App = () => {
-  //this will be dynameic data with state
+  //this will be dynameic data using state
   const expenses = [
     {id:1, title: 'Groceries', amount: 67.32, date: new Date(2022, 3, 7)},
     {id:2, title: 'Car Insurance', amount: 111.43, date: new Date(2022, 3, 14)},
