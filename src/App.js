@@ -27,6 +27,24 @@ const DUMMY_ESPENSES = [
     title: 'Groceries',
     amount: 70.18,
     date: new Date(2022, 5, 13),
+  },
+  {
+    id: '5',
+    title: 'Dinner',
+    amount: 30.18,
+    date: new Date(2021, 5, 10),
+  },
+  {
+    id: '6',
+    title: 'Frames',
+    amount: 20.15,
+    date: new Date(2020, 5, 16),
+  },
+  {
+    id: '6',
+    title: 'Gas',
+    amount: 70.18,
+    date: new Date(2021, 5, 20),
   }
 ];
 
